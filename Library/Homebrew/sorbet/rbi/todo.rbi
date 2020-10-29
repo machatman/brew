@@ -2,12 +2,31 @@
 #   srb rbi todo
 
 # typed: strong
+module ::ActiveSupport::Inflector; end
+module ::I18n; end
+module ::ParallelTests; end
+module ::SimpleCov; end
+module ::SimpleCov::Formatter::Codecov; end
+module ::SimpleCov::Formatter::HTMLFormatter; end
+module ::SimpleCov::Formatter::MultiFormatter; end
 module ::StackProf; end
 module DependencyCollector::Compat; end
+module Homebrew::Pry; end
+module Homebrew::SimpleCov; end
+module Keg::MachO::MachOError; end
+module Keg::MachO::Tools; end
+module MachOShim::MachO; end
+module MachOShim::MachO::NotAMachOError; end
+module MachOShim::MachO::Utils; end
 module OS::Mac::Version::NULL; end
-module T::InterfaceWrapper::Helpers; end
-module T::Private::Abstract::Hooks; end
-module T::Private::Methods::MethodHooks; end
-module T::Private::Methods::SingletonMethodHooks; end
+module RSpec::Core::Formatters; end
+module RSpec::Core::Formatters::BaseFormatter; end
+module RSpec::Core::Formatters::ProgressFormatter; end
+module RSpec::Core::SharedContext; end
+module RSpec::Core::Warnings; end
+module RuboCop::RSpec::ExpectOffense; end
+module Tapioca::Compilers::Dsl::Base::Parlour::RbiGenerator::Namespace; end
+module Tapioca::Compilers::Dsl::Base::Parlour::RbiGenerator::Parameter; end
+module Tapioca::Compilers::DslCompiler::Parlour::RbiGenerator; end
 module Test::Unit::AssertionFailedError; end
 module Test::Unit::Assertions; end
