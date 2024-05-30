@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "bootsnap", require: false
 gem "byebug", require: false
 gem "minitest", require: false
-gem "nokogiri", require: false
+gem "nokogiri", ">= 1.16.5", require: false
 gem "parallel_tests", require: false
 gem "ronn", require: false
 gem "rspec", require: false
@@ -32,7 +32,7 @@ end
 gem "activesupport"
 gem "concurrent-ruby"
 gem "did_you_mean" # remove when HOMEBREW_REQUIRED_RUBY_VERSION >= 2.7
-gem "mechanize"
+gem "mechanize", ">= 2.8.2"
 gem "patchelf"
 gem "plist"
 gem "rubocop-performance"
