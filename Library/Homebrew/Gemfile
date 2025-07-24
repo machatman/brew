@@ -6,7 +6,7 @@ source "https://rubygems.org"
 gem "bootsnap", require: false
 gem "byebug", require: false
 gem "minitest", require: false
-gem "nokogiri", require: false
+gem "nokogiri", ">= 1.18.9", require: false
 gem "parallel_tests", require: false
 gem "ronn", require: false
 gem "rspec", require: false
@@ -25,14 +25,14 @@ group :sorbet, optional: true do
   gem "rspec-sorbet", require: false
   gem "sorbet", require: false
   gem "sorbet-runtime", require: false
-  gem "tapioca", require: false
+  gem "tapioca", ">= 0.4.24", require: false
 end
 
 # vendored gems
 gem "activesupport"
 gem "concurrent-ruby"
 gem "did_you_mean" # remove when HOMEBREW_REQUIRED_RUBY_VERSION >= 2.7
-gem "mechanize"
+gem "mechanize", ">= 2.8.2"
 gem "patchelf"
 gem "plist"
 gem "rubocop-performance"
